@@ -1,0 +1,3 @@
+# soft files and gzipped
+*.soft
+*.soft.gz
