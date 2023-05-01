@@ -3,3 +3,6 @@
 *.soft.gz
 *.csv
 GPL*.txt
+
+#vscode files
+*.vscode
