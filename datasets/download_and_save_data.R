@@ -66,7 +66,7 @@ description_to_label <- function(des){
     
     else if (des_each == "HC"){key = 0}
     else if (des_each == "H1N1"){key = 2}
-    else if (des_each == "A"){key = 2}
+    else if (des_each == "A"){key = 2}"pathogen: Rhinovirus"
     else if (des_each == "B"){key = 2}
     else if (des_each == "H3N2"){key = 2}
     
