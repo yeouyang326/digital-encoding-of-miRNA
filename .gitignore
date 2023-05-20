@@ -6,3 +6,6 @@ GPL*.txt
 
 #vscode files
 *.vscode
+*.Rdata
+*.rda
+nc_20210224_process/*
