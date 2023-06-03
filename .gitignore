@@ -6,3 +6,8 @@ GPL*.txt
 
 #vscode files
 *.vscode
+*.Rdata
+*.rda
+nc_20210224_process/*
+datasets/GPL96_save.pkl
+*.pkl
