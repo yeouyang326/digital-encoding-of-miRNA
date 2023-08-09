@@ -9,7 +9,6 @@ GPL*.txt
 *.Rdata
 *.rda
 nc_20210224_process/*
-datasets/GPL96_save.pkl
 *.pkl
 test.ipynb
-feature.xlsx
+*.xlsx
