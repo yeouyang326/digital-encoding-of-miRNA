@@ -12,3 +12,5 @@ nc_20210224_process/*
 *.pkl
 test.ipynb
 *.xlsx
+
+/output/*
