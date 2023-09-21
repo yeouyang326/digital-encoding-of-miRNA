@@ -35,7 +35,7 @@ conda init powershell
 #### 设置源为清华源，配置如下
 
 ```bash
-cp .condarc ~/condarc
+cp .condarc ~/.condarc
 ```
 
 #### 创建环境、安装依赖
