@@ -8,9 +8,11 @@
 
 直接下载链接：<https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user>
 
-### MiniConda
+### Micromamba
 
-清华镜像：[Miniconda](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Windows-x86_64.exe) <https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Windows-x86_64.exe>
+校内镜像：[micromamba](https://share.319.ccsn.dev/d/%E5%AE%89%E8%A3%85%E5%8C%85/micromamba.exe) <https://share.319.ccsn.dev/d/%E5%AE%89%E8%A3%85%E5%8C%85/micromamba.exe>
+校外镜像：[micromamba](https://share.ccsn.dev/d/%E5%AE%89%E8%A3%85%E5%8C%85/micromamba.exe) <https://share.ccsn.dev/d/%E5%AE%89%E8%A3%85%E5%8C%85/micromamba.exe>
+不用安装，直接复制到与本文件同目录下即可
 
 ### Git
 
@@ -22,16 +24,6 @@
 
 把代码块里的东西全部复制，再粘贴进shell。
 
-#### 在 AnaConda PowerShell Prompt 的用户配置中初始化 conda
-
-AnaConda PowerShell Prompt 可以在开始菜单里找找
-
-```powershell
-conda init powershell
-```
-
-然后关闭AnaConda PowerShell Prompt.
-
 #### 设置源为清华源，配置如下
 
 ```bash
@@ -41,13 +33,7 @@ cp .condarc ~/.condarc
 #### 创建环境、安装依赖
 
 ```bash
-conda env create --file environment.yml
-```
-
-#### 激活依赖
-
-```bash
-conda activate igem
+.\micromamba.exe  env create --file environment.yml
 ```
 
 ### 在 VS Code 里完成

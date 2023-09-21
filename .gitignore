@@ -14,3 +14,5 @@ test.ipynb
 *.xlsx
 
 /output/*
+
+micromamba.exe
