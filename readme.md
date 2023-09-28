@@ -38,6 +38,8 @@ cp .condarc ~/.condarc
 .\micromamba.exe  env create --file environment.yml
 ```
 
+如果报错xxx is missing，关杀毒软件特别是360后重试。
+
 #### 数据库选择
 
 来源：[UCSC Xena (xenabrowser.net)](https://xenabrowser.net/datapages/)，只勾选右侧TCGA Hub，使用其中含有exon expression RNAseq的数据，将数据库右侧括号内名字放入dataset_name，可以使用两个数据库，method一般使用为normal，对比两个数据库差异时为diff
